@@ -1,13 +1,11 @@
 package Tilegame;
 
-import TerningeSpil.Die;
-
 public class Turn {
     /**
      * Creates 2 die objects.
      */
-    TerningeSpil.Die die1 = new TerningeSpil.Die();
-    TerningeSpil.Die die2 = new Die();
+    Tilegame.Die die1 = new Tilegame.Die();
+    Tilegame.Die die2 = new Die();
     int sum;
 
     /**
